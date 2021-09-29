@@ -29,6 +29,11 @@ public static WebDriver driver;
 		driver.findElement(By.id("email")).sendKeys("bfmnyameni@gmail.com");
 		driver.findElement(By.name("pass")).sendKeys("ghsdhh");
 		driver.findElement(By.name("login")).click();
+		
+		/*
+		 * Added new comments .. Boni
+		 * */
+		 
 	}
 	
 	@AfterSuite
