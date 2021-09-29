@@ -28,7 +28,7 @@ public static WebDriver driver;
 		driver.get("https://www.facebook.com/");
 		driver.findElement(By.id("email")).sendKeys("bfmnyameni@gmail.com");
 		driver.findElement(By.name("pass")).sendKeys("ghsdhh");
-		
+		driver.findElement(By.name("login")).click();
 	}
 	
 	@AfterSuite
